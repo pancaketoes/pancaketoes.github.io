@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tyler Curry's data science portfolio featuring bioinformatics, machine learning, visualization, and applied analytics projects.">
+  <title>Tyler Curry | Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Tyler Curry home">TC</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">DATA SCIENCE • BIOINFORMATICS • APPLIED ANALYTICS</p>
+          <h1>Turning complex data into clear, useful decisions.</h1>
+          <p class="hero-copy">
+            I am Tyler Curry, a data scientist with a background in biomedical science and experience applying machine learning, visualization, and data engineering to healthcare, business, and sports problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View featured work</a>
+            <a class="button secondary" href="https://github.com/pancaketoes" target="_blank" rel="noopener">GitHub profile</a>
+          </div>
+        </div>
+        <aside class="focus-card" aria-label="Professional focus">
+          <p class="card-label">CURRENT FOCUS</p>
+          <h2>Bioinformatics and decision-focused data science</h2>
+          <p>I am especially interested in projects that connect technical modeling with biological interpretation, stakeholder needs, and practical outcomes.</p>
+          <div class="skill-list">
+            <span>Python</span><span>R</span><span>SQL</span><span>Machine Learning</span><span>Power BI</span><span>Big Data</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container section-grid">
+        <div>
+          <p class="section-kicker">ABOUT</p>
+          <h2>A scientific foundation with a business mindset.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My work sits at the intersection of data science, biomedical research, and applied decision-making. With a bachelor’s degree in Biomedical Sciences and graduate training in Data Science, I bring both domain knowledge and technical skills to problems involving high-dimensional data, prediction, visualization, and operational reporting.
+          </p>
+          <p>
+            I approach projects by first defining the question and audience, then building a reproducible workflow that explains not only what the model found, but why the result matters. My portfolio highlights bioinformatics, applied machine learning, data visualization, business analytics, and data engineering projects.
+          </p>
+          <p>
+            I am seeking opportunities where I can translate complex information into clear insights for scientific, healthcare, technology, or analytics teams.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">FEATURED WORK</p>
+            <h2>Selected projects</h2>
+          </div>
+          <p class="section-intro">Each project is organized around the problem, methods, outcome, and tools so reviewers can understand the value quickly.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span class="project-number">01</span>
+              <span class="project-category">Bioinformatics</span>
+            </div>
+            <h3>Inflammatory Skin Disease RNA-seq Classifier</h3>
+            <p class="project-problem"><strong>Problem:</strong> Determine whether gene-expression profiles can distinguish inflammatory skin disease classes.</p>
+            <p>Built a patient-aware classification workflow using filtering, normalization, PCA, logistic regression, and linear SVM. The strongest model achieved approximately 0.88 macro-F1 while preserving a clear discussion of biological limitations.</p>
+            <div class="tags"><span>Python</span><span>scikit-learn</span><span>PCA</span><span>RNA-seq</span></div>
+            <p class="project-status">Repository cleanup in progress</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-number">02</span>
+              <span class="project-category">Data Visualization</span>
+            </div>
+            <h3>National Childcare Affordability Data Story</h3>
+            <p class="project-problem"><strong>Problem:</strong> Explain how childcare costs affect families across states and income levels.</p>
+            <p>Analyzed the National Database of Childcare Prices and translated a large, complex dataset into parent-focused visuals, an infographic, presentation, and dashboard concept.</p>
+            <div class="tags"><span>Power BI</span><span>Python</span><span>Data Storytelling</span></div>
+            <p class="project-status">Portfolio case study in progress</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-number">03</span>
+              <span class="project-category">Machine Learning</span>
+            </div>
+            <h3>MovieLens Content-Based Recommender</h3>
+            <p class="project-problem"><strong>Problem:</strong> Recommend similar movies using genre information rather than user ratings alone.</p>
+            <p>Created a genre-based recommendation engine with CountVectorizer and cosine similarity, while documenting memory constraints and practical scaling considerations.</p>
+            <div class="tags"><span>Python</span><span>pandas</span><span>Cosine Similarity</span></div>
+            <p class="project-status">Repository cleanup in progress</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-number">04</span>
+              <span class="project-category">Sports Analytics</span>
+            </div>
+            <h3>Pitcher Deception Score</h3>
+            <p class="project-problem"><strong>Problem:</strong> Quantify how difficult a pitcher is to read using Statcast characteristics.</p>
+            <p>Designed a custom metric combining release-point consistency, velocity separation, and spin-axis similarity, then applied it to the Tampa Bay Rays pitching staff.</p>
+            <div class="tags"><span>Python</span><span>Statcast</span><span>Feature Engineering</span></div>
+            <a class="text-link" href="https://github.com/pancaketoes/Pitcher-Deception-Score" target="_blank" rel="noopener">View repository →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-number">05</span>
+              <span class="project-category">Unsupervised Learning</span>
+            </div>
+            <h3>ALS Patient Clustering Analysis</h3>
+            <p class="project-problem"><strong>Problem:</strong> Explore whether clinically meaningful patient groups emerge without predefined labels.</p>
+            <p>Applied feature scaling, K-means clustering, silhouette analysis, and PCA to ALS clinical data, emphasizing cautious interpretation when cluster separation was limited.</p>
+            <div class="tags"><span>Python</span><span>K-means</span><span>PCA</span><span>Clinical Data</span></div>
+            <p class="project-status">Repository cleanup in progress</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="project-number">06</span>
+              <span class="project-category">Data Engineering</span>
+            </div>
+            <h3>Hive External Table Workflow</h3>
+            <p class="project-problem"><strong>Problem:</strong> Demonstrate how schema-on-read separates table metadata from persistent distributed data.</p>
+            <p>Created and queried an external Hive table, removed the table definition, and verified that the source data remained in HDFS.</p>
+            <div class="tags"><span>HiveQL</span><span>HDFS</span><span>Hadoop</span><span>Linux</span></div>
+            <p class="project-status">Technical walkthrough in progress</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="section-kicker">CONTACT</p>
+          <h2>Let’s connect.</h2>
+          <p>I am interested in data science, bioinformatics, healthcare analytics, and applied analytics opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/pancaketoes" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/tyler-curry-708b132b9/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© 2026 Tyler Curry</p>
+      <p>Built for GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>
